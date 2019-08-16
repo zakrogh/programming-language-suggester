@@ -6,6 +6,9 @@ body{
   background-color: rgba(75, 75, 75, 0.25);
 
 }
+.state2, .state3, .state4, .state5{
+  display: none;
+}
 .container{
     font-family: Georgia;
 }
