@@ -10,7 +10,7 @@ var panelClicked = function(panelName){
 * 1 = Do you like strict rules?
 * 2 = favorite ice cream flavor - gets ignored
 * 3 = should white space matter - always returns Python if yes
-* 4 = do you like confusing stuff - always returns C if yes, takes priority over Pyhton
+* 4 = do you like confusing stuff - always returns C if yes, takes priority over Python
 */
 var calculateResults = function(){
   if(choices[4]){
@@ -44,7 +44,7 @@ var displayNext = function(){
 }
 var showResults = function(results){
   $(".panel, .well").css("display", "none");
-  $(".modal-body").append(results);
+  $(".language" + results).toggle();
   $(".modal").modal();
 }
 

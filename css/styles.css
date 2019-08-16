@@ -11,8 +11,15 @@ body{
 .state2, .state3, .state4, .state5{
   display: none;
 }
+.languageC, .languagePython, .languageCSharp, .languageJavascript, .languageScheme, .languageErlang{
+  display: none;
+}
 .panel{
   min-height: 500px;
+  cursor: pointer;
+}
+.modal-body{
+  min-height: 600px;
 }
 .container{
     font-family: Georgia;
