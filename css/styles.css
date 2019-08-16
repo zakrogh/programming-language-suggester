@@ -1,13 +1,14 @@
-h1, h2{
+h1, h2, h3{
   text-align: center;
-
 }
 body{
   background-color: rgba(75, 75, 75, 0.25);
-
 }
 .state2, .state3, .state4, .state5{
   display: none;
+}
+.panel{
+  min-height: 400px;
 }
 .container{
     font-family: Georgia;
